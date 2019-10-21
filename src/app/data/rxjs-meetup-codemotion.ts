@@ -4,20 +4,20 @@ export const RXJS_MEETUP_CODEMOTION = [
     thumb: 'speaker_biondi.png',
     snippets: [
       {
-        title: 'Share operator e multicast',
-        desc: 'bla bla',
+        title: 'Multicast with share() operator and Subject',
+        desc: 'Utilizzare il multicast con l\'operatore share() e le subject',
         urlStart: null,
-        urlFinal: 'https://stackblitz.com/edit/rxjs-snippet-share-multicast?embed=1&file=src/app/app.component.ts',
+        urlFinal: 'https://stackblitz.com/edit/meetup-rxjs-rxjs-snippet-share-multicast?file=src/app/app.component.ts',
       },
       {
         title: 'Differenze tra le tipologie di Subject',
-        desc: 'bla bla',
-        urlStart: '1',
+        desc: null,
+        urlStart: null,
         urlFinal: 'https://stackblitz.com/edit/rxjs-angular-subject-vs-behavior-vs-replay-vs-async?file=src/app/app.component.ts',
       },
       {
         title: 'Subject as Observer',
-        desc: 'bla bla',
+        desc: null,
         urlStart: null,
         urlFinal: 'https://stackblitz.com/edit/rxjs-angular-subject-as-observer?file=src%2Fapp%2Fapp.component.ts',
       }
@@ -38,13 +38,13 @@ export const RXJS_MEETUP_CODEMOTION = [
         title: 'Operatori di combinazione per definire degli stati derivati (continuazione del precedente)',
         desc: 'Utilizzo di catchError per reagire agli errori in due modi diversi: con l’utilizzo di BehaviorSubject, oppure con dei Subject. Spiegazione di dove utilizzare catchError e dove no. Infine, piccola menzione sull’ErrorHandler di Angular.',
         urlStart: null,
-        urlFinal: null,
+        urlFinal: 'https://stackblitz.com/edit/rxjs-combination-states',
       },
       {
         title: 'Gestione degli errori nello stato applicativo',
         desc: 'Utilizzo di operatori di combinazione (merge, combineLatest, withLatestFrom, e pure switchMap) per la creazione di stati derivati e abolire per sempre le variabili d’istanza. Vari esempi partendo dal tip precedente, accennando anche a socket/firebase/real-time.',
         urlStart: null,
-        urlFinal: null,
+        urlFinal: 'https://stackblitz.com/edit/ng-rxjs-state-after-errors',
       }
     ]
   },

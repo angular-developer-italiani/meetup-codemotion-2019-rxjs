@@ -5,6 +5,8 @@ import { RXJS_MEETUP_CODEMOTION } from './data/rxjs-meetup-codemotion';
   selector: 'fb-root',
   template: `
     <div class="container" style="max-width: 400px">
+      <img src="assets/rxjs-meetup.png" width="100%" class="mb-3 mt-3">
+      <hr>
       <div *ngFor="let speaker of speakers">
         <!--<div>{{speaker.author}}</div>-->
         <div class="text-center mb-3">
@@ -20,6 +22,7 @@ import { RXJS_MEETUP_CODEMOTION } from './data/rxjs-meetup-codemotion';
                 *ngIf="snippet.urlFinal as urlFinal" 
                 class="text-secondary"
                 [href]="urlFinal" 
+                target="_blank"
               >
                 <i class="fa fa-code"></i> Source Code
               </a>
@@ -28,7 +31,8 @@ import { RXJS_MEETUP_CODEMOTION } from './data/rxjs-meetup-codemotion';
               <a 
                 *ngIf="snippet.urlStart as urlStart" 
                 class="text-success"
-                [href]="urlStart" 
+                [href]="urlStart"
+                target="_blank"
               >
                 <i class="fa fa-play-circle"></i> Playground
               </a>
