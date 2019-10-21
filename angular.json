@@ -139,8 +139,13 @@
               "devServerTarget": "meetup-rxjs:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "meetup-rxjs"
 }
