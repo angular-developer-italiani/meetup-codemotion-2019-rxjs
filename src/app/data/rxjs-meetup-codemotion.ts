@@ -11,13 +11,13 @@ export const RXJS_MEETUP_CODEMOTION = [
         urlFinal: 'https://stackblitz.com/edit/rxjs-angular-behaviorsubject-to-share-data?file=src%2Fapp%2Fapp.component.ts',
       },
       {
-        title: 'Unicast vs Multicast (with share() and Subject)',
+        title: 'Unicast vs Multicast: with share() and Subject',
         desc: 'Utilizzare il multicast con l\'operatore share() e le subject',
         urlStart: null,
         urlFinal: 'https://stackblitz.com/edit/meetup-rxjs-rxjs-snippet-share-multicast?file=src/app/app.component.ts',
       },
       {
-        title: 'Differenze tra le tipologie di Subject',
+        title: 'Subject types: differences',
         desc: null,
         urlStart: null,
         urlFinal: 'https://stackblitz.com/edit/meetup-rxjs-angular-subject-vs-behavior-vs-replay-vs-async?file=src%2Fapp%2Fapp.component.ts',
